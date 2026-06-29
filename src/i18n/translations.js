@@ -1,0 +1,426 @@
+const translations = {
+  bn: {
+    nav: {
+      home: "হোম",
+      about: "আমাদের সম্পর্কে",
+      services: "সার্ভিস",
+      team: "টিম",
+      blog: "ব্লগ",
+      gallery: "গ্যালারি",
+      contact: "যোগাযোগ",
+      adminLogin: "অ্যাডমিন লগইন",
+      contactBtn: "যোগাযোগ করুন",
+      investorLicense: "ইনভেস্টর লাইসেন্স",
+      visaServices: "ভিসা সার্ভিস",
+      airTicket: "এয়ার টিকেট",
+      generalServices: "জেনারেল সার্ভিস",
+      umrah: "ওমরাহ",
+    },
+
+    hero: {
+      slides: [
+        {
+          subtitle: "ইউসুফ কনসালটেন্সি",
+          title: "সৌদি আরবে আপনার ব্যবসা শুরু করুন",
+          highlight: "ইনভেস্টর লাইসেন্স সহজে",
+          desc: "সৌদি ইনভেস্টর লাইসেন্স, কোম্পানি গঠন এবং আইনি ডকুমেন্টেশনে আমরা সম্পূর্ণ সহায়তা প্রদান করি।",
+          btn1: "ব্যবসা শুরু করুন",
+          btn2: "বিশেষজ্ঞের সাথে কথা বলুন",
+        },
+        {
+          subtitle: "ইউসুফ কনসালটেন্সি",
+          title: "সব ধরনের KSA জেনারেল সার্ভিস",
+          highlight: "ঝামেলামুক্ত প্রক্রিয়া",
+          desc: "ইকামা সার্ভিস থেকে ডকুমেন্ট ক্লিয়ারেন্স ও ভিসা প্রসেসিং — সৌদি আরব জুড়ে আমরা নির্ভরযোগ্য সহায়তা নিশ্চিত করি।",
+          btn1: "এখনই শুরু করুন",
+          btn2: "বিশেষজ্ঞের সাথে কথা বলুন",
+        },
+        {
+          subtitle: "ইউসুফ কনসালটেন্সি",
+          title: "এয়ার টিকেট বুক করুন",
+          highlight: "দ্রুত ও সহজে",
+          desc: "দ্রুত বুকিং এবং বিশ্বস্ত সহায়তায় আন্তর্জাতিক ও দেশীয় ফ্লাইটে সেরা দামে টিকেট পান।",
+          btn1: "টিকেট বুক করুন",
+          btn2: "যোগাযোগ করুন",
+        },
+      ],
+    },
+
+    stats: {
+      clients: "সন্তুষ্ট ক্লায়েন্ট",
+      visa: "ভিসা প্রসেস",
+      business: "ব্যবসা সেটআপ",
+      years: "বছরের অভিজ্ঞতা",
+    },
+
+    umrah: {
+      tag: "ওমরাহ প্যাকেজ",
+      title: "হজ পরবর্তী ওমরাহ প্যাকেজ",
+      desc: "জুন / জুলাই ২০২৬ এর জন্য আমাদের বিশেষ ওমরাহ প্যাকেজ। নিরাপদ, নির্ভরযোগ্য এবং সম্পূর্ণ সাপোর্টসহ।",
+      directFlight: "ডিরেক্ট ফ্লাইট = ১৪০,০০০ টাকা",
+      transitFlight: "ট্রানজিট ফ্লাইট = ১৩০,০০০ টাকা",
+      btn: "বিস্তারিত জানতে যোগাযোগ করুন",
+      trustedLabel: "বিশ্বস্ত ওমরাহ সার্ভিস",
+      madinah: "মদিনা",
+      jeddah: "জেদ্দা",
+      dhaka: "ঢাকা",
+    },
+
+    services: {
+      title: "আমাদের সার্ভিস",
+      subtitle: "আপনার প্রয়োজন মেটাতে আমাদের বিস্তৃত সার্ভিস সমূহ।",
+      ctaTitle: "সব সার্ভিস এক জায়গায় পান",
+      ctaDesc: "আপনার ব্যবসার সব প্রয়োজনে আমরা সম্পূর্ণ সমাধান দিই।",
+      ctaBtn: "যোগাযোগ করুন",
+      learnMore: "বিস্তারিত দেখুন",
+      noServices: "কোনো সার্ভিস পাওয়া যায়নি",
+    },
+
+    features: {
+      tag: "আমাদের বৈশিষ্ট্য",
+      title: "ইউসুফ কনসালটেন্সির সাথে সেরা সার্ভিস উপভোগ করুন",
+      desc: "বৈশ্বিক ইমিগ্রেশন আইন ও ভিসা প্রক্রিয়ায় বছরের পর বছরের অভিজ্ঞতায় আমরা আপনার বিদেশযাত্রা সহজ করতে প্রতিশ্রুতিবদ্ধ।",
+      btn: "এখনই যোগাযোগ করুন",
+      card1Title: "বৈশ্বিক ভিসা বিশেষজ্ঞতা",
+      card1Desc: "বিভিন্ন দেশের ইমিগ্রেশন আইন ও নীতিমালায় বিশেষ জ্ঞান।",
+      card2Title: "ব্যক্তিগতকৃত সমাধান",
+      card2Desc: "আপনার অনন্য পটভূমি ও আকাঙ্ক্ষা অনুযায়ী কাস্টম কৌশল।",
+      card3Title: "উচ্চ সাফল্যের হার",
+      card3Desc: "বিভিন্ন ক্যাটাগরিতে ভিসা পাওয়ার সর্বোচ্চ সাফল্যের রেকর্ড।",
+    },
+
+    testimonials: {
+      tag: "ক্লায়েন্ট রিভিউ",
+      title: "আমাদের ক্লায়েন্টরা কি বলেন",
+      subtitle: "১০০০+ সন্তুষ্ট ক্লায়েন্টের বিশ্বাসই আমাদের সবচেয়ে বড় সম্পদ",
+    },
+
+    team: {
+      tag: "আমাদের টিম",
+      title: "আমাদের দক্ষ ও অভিজ্ঞ টিমের সাথে পরিচিত হন",
+      subtitle: "আমাদের অভিজ্ঞ পেশাদার দল আপনাকে সর্বোত্তম সেবা প্রদানে প্রতিশ্রুতিবদ্ধ।",
+      noMembers: "এখনো কোনো টিম সদস্য যোগ করা হয়নি",
+      experience: "বছরের অভিজ্ঞতা",
+      pageTitle: "আমাদের টিম",
+    },
+
+    blog: {
+      pageTitle: "ব্লগ",
+      tag: "আমাদের ব্লগ",
+      title: "সর্বশেষ আপডেট ও নিবন্ধ",
+      subtitle: "ভিসা, ইমিগ্রেশন ও ব্যবসায়িক বিষয়ে আমাদের লেখাগুলি পড়ুন",
+      readMore: "আরও পড়ুন",
+      noPosts: "এখনো কোনো ব্লগ পোস্ট প্রকাশিত হয়নি",
+      backToBlog: "ব্লগে ফিরে যান",
+      publishedOn: "প্রকাশিত",
+      by: "লেখক",
+    },
+
+    gallery: {
+      pageTitle: "গ্যালারি",
+      tag: "আমাদের গ্যালারি",
+      title: "আমাদের কাজের কিছু মুহূর্ত",
+      subtitle: "আমাদের অফিস, ইভেন্ট ও সফল ক্লায়েন্টদের ছবি দেখুন",
+      noImages: "এখনো কোনো ছবি যোগ করা হয়নি",
+    },
+
+    contactForm: {
+      tag: "যোগাযোগ ফর্ম",
+      title: "আমাদের সাথে যোগাযোগ করুন",
+      subtitle: "আপনার তথ্য পাঠান, আমরা শীঘ্রই যোগাযোগ করব",
+      namePlaceholder: "আপনার নাম",
+      phonePlaceholder: "ফোন নম্বর",
+      emailPlaceholder: "ইমেইল ঠিকানা",
+      selectService: "সার্ভিস বেছে নিন",
+      messagePlaceholder: "আপনার বার্তা লিখুন...",
+      submitBtn: "বার্তা পাঠান",
+      sending: "পাঠানো হচ্ছে...",
+      successMsg: "আপনার বার্তা পাঠানো হয়েছে! আমরা শীঘ্রই যোগাযোগ করব।",
+      errorMsg: "কিছু সমস্যা হয়েছে। অনুগ্রহ করে আবার চেষ্টা করুন।",
+      services: [
+        "ইনভেস্টর লাইসেন্স",
+        "ভিসা সার্ভিস",
+        "এয়ার টিকেট বুকিং",
+        "ওমরাহ প্যাকেজ",
+        "জেনারেল সার্ভিস",
+      ],
+    },
+
+    footer: {
+      about:
+        "সৌদি আরবে ভিসা, ইনভেস্টর লাইসেন্স, ব্যবসা সেটআপ এবং এয়ার টিকেট সার্ভিসে আমরা আপনার বিশ্বস্ত অংশীদার।",
+      quickLinks: "দ্রুত লিংক",
+      ourServices: "আমাদের সার্ভিস",
+      contactInfo: "যোগাযোগের তথ্য",
+      rights: "সর্বস্বত্ব সংরক্ষিত।",
+      links: {
+        home: "হোম",
+        about: "আমাদের সম্পর্কে",
+        team: "টিম",
+        blog: "ব্লগ",
+        gallery: "গ্যালারি",
+        contact: "যোগাযোগ",
+      },
+      serviceLinks: {
+        investorLicense: "ইনভেস্টর লাইসেন্স",
+        visaProcessing: "ভিসা প্রসেসিং",
+        airTicket: "এয়ার টিকেট বুকিং",
+        generalServices: "জেনারেল সার্ভিস",
+      },
+      madinah: "মদিনা",
+      jeddah: "জেদ্দা",
+      dhaka: "ঢাকা",
+      email: "ইমেইল",
+      headOffice: "প্রধান অফিস",
+    },
+
+    whatsapp: {
+      status: "অনলাইন",
+      desc: "যেকোনো প্রশ্ন WhatsApp এ করুন। আমরা সাথে সাথে উত্তর দেব।",
+      btn: "এখনই চ্যাট করুন",
+      defaultMsg: "আস্সালামু আলাইকুম! আমি আপনাদের সার্ভিস সম্পর্কে জানতে চাই।",
+    },
+
+    about: {
+      tag: "ইউসুফ কনসালটেন্সি সম্পর্কে",
+      title: "আপনার বিশ্বস্ত অংশীদার",
+      titleHighlight: "ভিসা ও ব্যবসায়িক সমাধানে",
+      desc: "ইউসুফ কনসালটেন্সি ভিসা প্রসেসিং, ইনভেস্টর লাইসেন্স, ব্যবসা সেটআপ এবং এয়ার টিকেট বুকিংয়ে বিশেষজ্ঞ একটি পেশাদার সেবা প্রতিষ্ঠান।",
+      point1: "সৌদি আরবে ইনভেস্টর লাইসেন্স ও ব্যবসা সেটআপ",
+      point2: "ট্যুরিস্ট, ওয়ার্ক ও ফ্যামিলি ভিসা প্রসেসিং",
+      point3: "দেশীয় ও আন্তর্জাতিক এয়ার টিকেট বুকিং",
+      point4: "ব্যবসায়িক পরামর্শ ও ডকুমেন্টেশন সহায়তা",
+      btn: "যোগাযোগ করুন",
+      badge: "৫+ বছরের অভিজ্ঞতা",
+    },
+
+    contactPage: {
+      title: "যোগাযোগ",
+      infoTag: "যোগাযোগের তথ্য",
+      infoTitle: "আমাদের সাথে যোগাযোগ করুন",
+      call: "ফোন",
+      emailLabel: "ইমেইল",
+      locationLabel: "ঠিকানা",
+    },
+
+    common: {
+      loading: "লোড হচ্ছে...",
+      error: "ত্রুটি হয়েছে",
+      noData: "কোনো তথ্য পাওয়া যায়নি",
+      backHome: "হোমে ফিরে যান",
+    },
+  },
+
+  en: {
+    nav: {
+      home: "Home",
+      about: "About Us",
+      services: "Services",
+      team: "Team",
+      blog: "Blog",
+      gallery: "Gallery",
+      contact: "Contact",
+      adminLogin: "Admin Login",
+      contactBtn: "Contact Us",
+      investorLicense: "Investor License",
+      visaServices: "Visa Services",
+      airTicket: "Air Ticket",
+      generalServices: "General Services",
+      umrah: "Umrah",
+    },
+
+    hero: {
+      slides: [
+        {
+          subtitle: "Yousuf Consultancy",
+          title: "Start Your Business in Saudi Arabia",
+          highlight: "Investor License Made Easy",
+          desc: "We provide complete assistance in Saudi Investor License, company formation, and legal documentation.",
+          btn1: "Start Business",
+          btn2: "Talk to an Expert",
+        },
+        {
+          subtitle: "Visa Services",
+          title: "Hassle-Free",
+          highlight: "Visa Processing",
+          desc: "Tourist, Work, and Family visa processing with expert guidance.",
+          btn1: "Apply Now",
+          btn2: "Learn More",
+        },
+        {
+          subtitle: "Air Ticket",
+          title: "Domestic & International",
+          highlight: "Flight Booking",
+          desc: "Best price guaranteed on domestic and international flight tickets.",
+          btn1: "Book Now",
+          btn2: "Contact Us",
+        },
+      ],
+    },
+
+    footer: {
+      desc: "Professional consultancy services for Saudi Investor License, Visa Processing, and Air Ticket Booking.",
+      quickLinks: "Quick Links",
+      ourServices: "Our Services",
+      contactInfo: "Contact Info",
+      rights: "All Rights Reserved.",
+      links: {
+        home: "Home",
+        about: "About Us",
+        team: "Team",
+        blog: "Blog",
+        gallery: "Gallery",
+        contact: "Contact",
+      },
+      serviceLinks: {
+        investorLicense: "Investor License",
+        visaProcessing: "Visa Processing",
+        airTicket: "Air Ticket Booking",
+        generalServices: "General Services",
+      },
+      madinah: "Madinah",
+      jeddah: "Jeddah",
+      dhaka: "Dhaka",
+      email: "Email",
+      headOffice: "Head Office",
+    },
+
+    whatsapp: {
+      status: "Online",
+      desc: "Ask us anything on WhatsApp. We'll reply instantly.",
+      btn: "Chat Now",
+      defaultMsg: "Assalamu Alaikum! I'd like to know more about your services.",
+    },
+
+    about: {
+      tag: "About Yousuf Consultancy",
+      title: "Your Trusted Partner in",
+      titleHighlight: "Visa & Business Solutions",
+      desc: "Yousuf Consultancy is a professional service organization specializing in Visa Processing, Investor License, Business Setup, and Air Ticket Booking.",
+      point1: "Investor License & Business Setup in Saudi Arabia",
+      point2: "Tourist, Work & Family Visa Processing",
+      point3: "Domestic & International Air Ticket Booking",
+      point4: "Business Consultation & Documentation Support",
+      btn: "Contact Us",
+      badge: "5+ Years Experience",
+    },
+
+    contactPage: {
+      title: "Contact",
+      infoTag: "Contact Information",
+      infoTitle: "Get In Touch With Us",
+      call: "Phone",
+      emailLabel: "Email",
+      locationLabel: "Address",
+    },
+
+    stats: {
+      clients: "Happy Clients",
+      visa: "Visa Processed",
+      business: "Business Setups",
+      years: "Years Experience",
+    },
+
+    umrah: {
+      tag: "Umrah Packages",
+      title: "Post-Hajj Umrah Packages",
+      desc: "Special Umrah packages for June / July 2026. Safe, reliable, and fully supported.",
+      directFlight: "Direct Flight = 140,000 BDT",
+      transitFlight: "Transit Flight = 130,000 BDT",
+      btn: "Contact Us for Details",
+      trustedLabel: "Trusted Umrah Service",
+      madinah: "Madinah",
+      jeddah: "Jeddah",
+      dhaka: "Dhaka",
+    },
+
+    services: {
+      title: "Our Services",
+      subtitle: "Our wide range of services to meet your needs.",
+      ctaTitle: "All Services in One Place",
+      ctaDesc: "We provide complete solutions for all your business needs.",
+      ctaBtn: "Contact Us",
+      learnMore: "Learn More",
+      noServices: "No services found",
+    },
+
+    features: {
+      tag: "Our Features",
+      title: "Enjoy the Best Service with Yousuf Consultancy",
+      desc: "With years of experience in global immigration law and visa processes, we are committed to making your journey abroad easier.",
+      btn: "Contact Us Now",
+      card1Title: "Global Visa Expertise",
+      card1Desc: "Specialized knowledge in immigration laws and policies of various countries.",
+      card2Title: "Personalized Solutions",
+      card2Desc: "Custom strategies tailored to your unique background and aspirations.",
+      card3Title: "High Success Rate",
+      card3Desc: "Record of highest success in obtaining visas across various categories.",
+    },
+
+    testimonials: {
+      tag: "Client Reviews",
+      title: "What Our Clients Say",
+      subtitle: "The trust of 1000+ satisfied clients is our greatest asset",
+    },
+
+    team: {
+      tag: "Our Team",
+      title: "Meet Our Skilled & Experienced Team",
+      subtitle: "Our experienced professional team is committed to providing you the best service.",
+      noMembers: "No team members added yet",
+      experience: "Years Experience",
+      pageTitle: "Our Team",
+    },
+
+    blog: {
+      pageTitle: "Blog",
+      tag: "Our Blog",
+      title: "Latest Updates & Articles",
+      subtitle: "Read our articles on visa, immigration and business topics",
+      readMore: "Read More",
+      noPosts: "No blog posts published yet",
+      backToBlog: "Back to Blog",
+      publishedOn: "Published",
+      by: "Author",
+    },
+
+    gallery: {
+      pageTitle: "Gallery",
+      tag: "Our Gallery",
+      title: "Some Moments of Our Work",
+      subtitle: "See photos of our office, events and successful clients",
+      noImages: "No images added yet",
+    },
+
+    contactForm: {
+      tag: "Contact Form",
+      title: "Get in Touch With Us",
+      subtitle: "Send your information and we will contact you shortly",
+      namePlaceholder: "Your Name",
+      phonePlaceholder: "Phone Number",
+      emailPlaceholder: "Email Address",
+      selectService: "Select a Service",
+      messagePlaceholder: "Write your message...",
+      submitBtn: "Send Message",
+      sending: "Sending...",
+      successMsg: "Your message has been sent! We will contact you soon.",
+      errorMsg: "Something went wrong. Please try again.",
+      services: [
+        "Investor License",
+        "Visa Services",
+        "Air Ticket Booking",
+        "General Services",
+        "Umrah Package",
+      ],
+    },
+
+    common: {
+      loading: "Loading...",
+      error: "An error occurred",
+      noData: "No data found",
+      backHome: "Back to Home",
+    },
+  },
+};
+
+export default translations;
