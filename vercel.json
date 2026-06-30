@@ -3,7 +3,11 @@
   "framework": "vite",
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
+<<<<<<< HEAD
   "installCommand": "rm -rf node_modules package-lock.json && npm install",
+=======
+  "installCommand": "npm install",
+>>>>>>> 1f0f38c2753c01b7d76c758a36b00df887b093f9
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ],

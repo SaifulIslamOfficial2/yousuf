@@ -5,9 +5,15 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+<<<<<<< HEAD
     "build": "node ./node_modules/vite/bin/vite.js build",
     "lint": "eslint .",
     "preview": "node ./node_modules/vite/bin/vite.js preview"
+=======
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+>>>>>>> 1f0f38c2753c01b7d76c758a36b00df887b093f9
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
