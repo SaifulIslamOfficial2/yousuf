@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Investor License",
+    "desc": "Start your business in Saudi Arabia with full investor license support.",
+    "icon": "FaBuilding",
+    "color": "bg-yellow-100 text-yellow-600"
+  },
+  {
+    "title": "Visa Services",
+    "desc": "Fast and reliable tourist, visit, and work visa processing worldwide.",
+    "icon": "FaPassport",
+    "color": "bg-green-100 text-green-600"
+  },
+  {
+    "title": "Air Ticket",
+    "desc": "Book international and domestic flight tickets at the best price.",
+    "icon": "FaPlane",
+    "color": "bg-orange-100 text-orange-500"
+  },
+  {
+    "title": "General Services",
+    "desc": "Document processing and support services.",
+    "icon": "FaFileAlt",
+    "color": "bg-purple-100 text-purple-600"
+  },
+  {
+    "title": "Business Services",
+    "desc": "Company formation and consultancy services.",
+    "icon": "FaBriefcase",
+    "color": "bg-blue-100 text-blue-600"
+  }
+]
